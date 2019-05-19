@@ -1,0 +1,33 @@
+.page  {
+    .main{
+        .v{
+            top: -60%!important;     
+            opacity: 0;       
+            transition: all 1s ease 0s !important;
+            .p{
+                opacity: 0!important;                
+            }
+        }
+        .txt{
+            opacity: 0!important;
+            transition: all 1s ease!important;
+        }
+        .pages{            
+            top: 0;
+            opacity: 1;
+            transition-delay: .3s,.3s;
+        }
+    }
+    .sidebar{
+        a{
+            color: #fff;
+        }
+        .sidebar-footer{
+            opacity: 0!important;
+            visibility: hidden;
+        }
+        .sub{
+            height: 272px;
+        }
+    }
+}

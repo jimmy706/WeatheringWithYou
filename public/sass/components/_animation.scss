@@ -1,0 +1,56 @@
+@keyframes bg1{
+    0%{
+        background-position: 0 25%;
+    }
+    50%{
+        background-position: 28% 25%;
+    }
+    100%{
+        background-position: 0 25%;
+    }
+}
+
+@keyframes bg2{
+    0%{
+        background-position: 0 60%;
+    }
+    50%{
+        background-position: 28% 60%;
+    }
+    100%{
+        background-position: 0 60%;
+    }
+}
+
+@keyframes bg3{
+    0%{
+        background-position: 0 85%;
+    }
+    50%{
+        background-position: 28% 85%;
+    }
+    100%{
+        background-position: 0 85%;
+    }
+}
+
+@keyframes copy_txt{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes bg_main{
+    from {
+        top: 150%;
+    }
+    to{
+        top: 43%;
+    }
+}

@@ -1,0 +1,14 @@
+@mixin  position($post, $top, $right, $bottom, $left) {
+    position: $post;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
